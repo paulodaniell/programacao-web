@@ -1,0 +1,150 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+
+img{
+    width: 50%;
+
+}
+body{
+    height: 100%;
+    margin: 0;
+    
+}
+h1{
+    text-align: center;
+    color:#6a2e8a;
+    font-size: 50px;
+
+}
+h2{
+    text-align: center;
+    color: #6a2e8a;
+    font-size: 20px;
+}
+
+#banner {
+    background-color: #e6e2d3;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+
+#banner img {
+    width: 350px;
+    border-radius: 15px;
+}
+
+
+#banner h2 {
+    color: #6a2c91;
+    margin-bottom: 15px;
+}
+
+#banner p {
+    line-height: 1.6;
+    color: #333;
+}
+nav{
+    background-color: #8B4513;
+    font-size: 20px;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a:hover {
+    color: #FFD166;
+}
+
+.logo {
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+#inicial{
+    height: 100vh; 
+    background-image: url("https://images.pexels.com/photos/34234278/pexels-photo-34234278.png");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    
+}
+
+#container{
+    
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center; 
+    border-radius: 50%;
+    gap: 20px; 
+    
+}
+
+
+.info {
+    background-color: #EDE0D4;
+    width: 600px;
+    padding: 20px;             
+    border-radius: 15px;       
+    text-align: center;        
+    
+}
+
+.info img {
+    width: 40%;              
+    height: 100px;             
+    border-radius: 10px;       
+              
+}
+#receita {
+    width: 60%;
+    margin: 40px auto;
+    background-color: #EDE0D4;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #FFD166;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
