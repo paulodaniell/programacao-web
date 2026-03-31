@@ -15,14 +15,14 @@ function questao1() {
 
   if (valor === numeroSecreto) {
     p.textContent = "PARABÉNS!! Você Ganhou! O número era " + numeroSecreto;
-    
+
     numeroSecreto = Math.floor(Math.random() * 20) + 1;
   } else if (valor > numeroSecreto) {
     p.textContent = "O numero é menor";
   } else {
     p.textContent = "O numero é maior";
   }
-  
+
   input.value = "";
   input.focus();
 }
